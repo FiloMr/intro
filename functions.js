@@ -13,3 +13,16 @@
     }
     wartosc(x);
 }
+{
+    function isBigger(str) {
+        return (str.length > 5);
+    }
+    function startsB(str) {
+        return (str.charAt(0) == 'b');
+    }
+    let food = ['apple', 'watermelon', 'bannana', 'pear', 'carrot', 'beetroot', 'beans'];
+    let bigger = food.filter(isBigger);
+    let startsb = food.filter(startsB);
+    console.log(bigger);
+    console.log(startsb);
+}
