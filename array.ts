@@ -1,3 +1,4 @@
+{
 let owoce: string[]=[`jablko`,`arbuz`,`banan`,`gruszka`];
 console.log(owoce.length);
 console.log(owoce.sort());
@@ -28,3 +29,4 @@ console.log(owoce);
 
 let bob: [string, number]=[`Jan Kowalski`, 40];
 console.log(`Nazywam sie ${bob[0]} i mam ${bob[1]} lat.`);
+}
